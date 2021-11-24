@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #222831;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ul{
+        margin: 0px;
+        display: flex;
+        column-gap: 25px;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        li a, .nav-link{
+            text-decoration: none;
+            color: white;
+        }
+        li a:hover{
+            color: #04aed9;
+        }
+        li .nav-link:hover{
+            color: #04aed9;
+        }
+    }
+    form{
+        display: flex;
+        width: 20%;
+        height: 35px;
+        padding: 2px;
+        background: #1e232b;
+        border-radius: 2px;
+        border: 1px solid rgba(155,155,155,0.2);
+        .search-data{
+            width: 100%;
+            height: 100%;
+            padding: 0 10px;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 17px;
+            border: none;
+            font-weight: 500;
+            background: none;
+        }
+        button{
+            padding: 0 15px;
+            color: #fff;
+            font-size: 17px;
+            background: #04aed9;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer; 
+        }
+        button:hover{
+            background: #00fff5;
+        }
+    } 
+}
+h1{
+    font-family: 'Bungee', cursive;
+    color: #2ebfe4af;
+    text-shadow: 2px 2px #646b77;
+    text-align: center;
+}
+.background{
+    background-image: url('/LAST\ PROJECT\ FE/asset/gamer.jpg');
+
+}
+.gradient {
+    
+    background-image: linear-gradient(to right, rgb(3,10,28) 50%, rgba(7, 18, 48, 0.137));
+}
+.container-vision{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;;
+    .about{
+        margin: 90px 350px 30px 350px;
+        align-items: center;
+    }
+    .about {
+        text-align: center;
+        padding-bottom: 20px;
+        color: white;
+        overflow: hidden;
+    }  
+    .about h1:before,
+    h1:after {
+    background-color: rgb(255, 255, 255);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    }
+
+    .about h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+    }
+
+    .about h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+    
+    }
+    .about p{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .vision{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 320px;
+        border: 2px solid rgba(102, 198, 253, 0.815);
+        border-left: none;
+        border-right: none;
+    }
+    .vision p{
+        margin: 50px 300px 100px 200px;
+        padding-bottom: 100px;
+        font-size: 25px;
+    }
+    .vision img{
+        height: 310px;
+        width: auto;
+        filter: blur(0.7px);
+    }
+    .achievement{
+        margin: 70px 20px 70px 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .achievement h1:before,
+    h1:after {
+    background-color: rgb(255, 255, 255);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%;
+    }
+
+    .achievement h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+    }
+
+    .achievement h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+    }
+    .nomination{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        justify-self: center;
+        align-self: center;
+    }
+    .nomination-1,.nomination-2,.nomination-3{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   .fa-color{
+       color: gold;
+   }
+   #medal{
+       margin:20px;
+   }
+}
+
+footer{
+    background-color: #222831;
+
+    .footer-container{
+        padding: 40px 10% 10px 10%;
+        .row{
+            .col{
+                i{
+                    color: #04aed9;
+                    margin: 20px 15px 0px 0px;
+                }
+                h3{
+                    color: #fff;
+                    padding-bottom: 10px;
+                }
+                ul{
+                    list-style: none;
+                    margin: 0px;
+                    padding: 0;
+                    li {
+                        padding-bottom: 15px;                        
+                        a{
+                            text-decoration: none;
+                            color: #fff; 
+                        }
+                        a:hover{
+                            color: #04aed9;
+                        }
+                    }
+                }
+            }
+        }
+        .divider{
+            border-bottom: 1px solid white;
+            margin: 1rem 0;
+        }
+        .row{
+            p{
+                color: #fff;
+            }
+        }
+    }
+}
+.founder{
+    padding: 70px;
+}

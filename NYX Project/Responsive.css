@@ -1,0 +1,90 @@
+@media screen and (max-width: 1200px){
+    .landing_page{
+        background-image:
+        linear-gradient(to top, rgb(3,10,28) 8%, rgba(3, 10, 28, 0) 30%),
+        linear-gradient(to right, rgb(3,10,28) 50%, rgba(3, 10, 28, 0)),    
+        url('ALL IMAGE/RGB-Gaming2.jpg');
+        background-size: 
+        25%,
+        75%, 
+        cover;
+        background-repeat:
+        repeat,
+        no-repeat,
+        no-repeat;
+        background-position:
+        bottom,
+        left,
+        top right;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    nav ul{
+        width: 40%;
+        display: flex;
+        column-gap: 0px;
+    }
+
+    .our_product .carousel{
+        width: 90%;
+    }
+
+    .landing_page{
+        background-image:
+        linear-gradient(to top, rgb(3,10,28) 8%, rgba(3, 10, 28, 0) 30%),
+        /* linear-gradient(to right, rgb(3,10,28) 50%, rgba(3, 10, 28, 0)),     */
+        url('ALL IMAGE/RGB-Gaming2.jpg');
+        background-size: 
+        25%,
+        /* 75%,  */
+        cover;
+        background-repeat:
+        repeat,
+        no-repeat,
+        no-repeat;
+        background-position:
+        bottom,
+        /* left, */
+        top right;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width: 576px) { 
+    nav{
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }  
+    nav .logo{
+        display: none;
+    }
+    nav ul{
+        padding-left: 0;
+        width: 50%;
+        font-size: 15px;
+        display: flex;
+        justify-content: left;
+    }
+    nav form{
+        width: 40%;
+    }
+
+    .our_product .carousel{
+        width: 95%;
+    }
+
+    .landing_page .landing_page-container{
+        width: 90%;
+        position: absolute;
+        color: white;
+        top: 250px;
+        left: 5%;
+        right: 5%;
+
+    }
+}
+
+/* Menu */
